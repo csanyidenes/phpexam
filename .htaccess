@@ -1,11 +1,7 @@
-
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
 # php -- BEGIN ZesleCP -generated handler, do not edit
-# Set the zesle-php81 package as the default "PHP" programming language.
+# Set the zesle-php74 package as the default "PHP" programming language.
 <IfModule mime_module>
-AddHandler application/x-httpd-zesle-php81 .php .php7 .phtml
+AddHandler application/x-httpd-zesle-php74 .php .php7 .phtml
 </IfModule>
 # This block must be at very begining of this file
 # php -- END ZesleCP-generated handler, do not edit
